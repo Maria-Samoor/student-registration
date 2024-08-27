@@ -1,4 +1,4 @@
-package com.exalt.training.StudentRegistration.model;
+package com.exalt.training.StudentRegistration.enums;
 /**
  * Represents the gender of the student.
  */

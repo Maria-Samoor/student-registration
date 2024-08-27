@@ -1,6 +1,6 @@
 package com.exalt.training.StudentRegistration.service;
 
-import com.exalt.training.StudentRegistration.model.Specialization;
+import com.exalt.training.StudentRegistration.enums.Specialization;
 import com.exalt.training.StudentRegistration.model.Student;
 
 import java.util.List;

@@ -1,5 +1,7 @@
 package com.exalt.training.StudentRegistration.model;
 
+import com.exalt.training.StudentRegistration.enums.Gender;
+import com.exalt.training.StudentRegistration.enums.Specialization;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
@@ -47,7 +49,7 @@ public class Student {
      * @param address         The address of the student, including country, city, and postcode. Cannot be {@code null}.
      * @param specialization The specialization of the student. Cannot be {@code null}.
      */
-    public Student(String firstName, String lastName, String email, Gender gender, Address address, com.exalt.training.StudentRegistration.model.Specialization specialization) {
+    public Student(String firstName, String lastName, String email, Gender gender, Address address, Specialization specialization) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;

@@ -2,7 +2,7 @@ package com.exalt.training.StudentRegistration.service.impl;
 
 import com.exalt.training.StudentRegistration.exception.EmailAlreadyInUseException;
 import com.exalt.training.StudentRegistration.exception.StudentNotFoundException;
-import com.exalt.training.StudentRegistration.model.Specialization;
+import com.exalt.training.StudentRegistration.enums.Specialization;
 import com.exalt.training.StudentRegistration.model.Student;
 import com.exalt.training.StudentRegistration.repository.StudentRepository;
 import com.exalt.training.StudentRegistration.service.StudentService;
